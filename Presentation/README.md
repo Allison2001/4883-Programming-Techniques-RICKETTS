@@ -47,3 +47,73 @@
   - initilize x1, x2, x3 using cal() with values of k1, k2, k3
   - Calculate point of A, B, C using values of x1, x2, x3
   - print
+
+[Code 3](https://blog.csdn.net/jingqi814/article/details/23408217?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-2-23408217-blog-108814425.pc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-2-23408217-blog-108814425.pc_relevant_3mothn_strategy_recovery&utm_relevant_index=3)
+
+### Main Uses in Code 3:
+- Code is written in c++
+- Two const doubles: eps and pi
+- Struct Point
+  - two double variables
+  - Point(x,y)
+  - Override >> operator
+  
+- dcmp(double)
+
+- typedef Point Vector;
+  - A lot of vector operation overriding
+  - ostream operator override
+  - override < and ==
+
+- Multiple double functions
+  - Dot(Vector, Vector)
+  - Cross(Vector, Vector)
+  - Length(Vector)
+  - Angle(Vector, Vector)
+  - Area2(Point, Point, Point)
+
+- Vector Rotate(Vector, double)
+  - Uses sin and cos
+  
+- Vector Normal(Vector)
+
+- Point GetLineIntersection(Point, Vector, Point, Vector)
+  - return P + v * t;
+  
+- double DistancetoLine(Point, Point, Point)
+  - calculate vector v1 and v2
+  - return cross / Length
+  
+- double DistancetoSegment(Point, Point, Point)
+  - calculate vector v and v1
+  - double t = Dot / Dot
+  - return A + v * t
+  
+- bool SegmentProperIntersection(Point, Point, Point, Point)
+  - calculate c1, c2, c3, c4
+  
+- bool OnSegment(Point, Point, Point)
+  - returns something
+  
+- double PolygonArea(Point*, int)
+  - calculate area
+  - return area / 2
+  
+- Point read_point()
+  - read in x and y for a point
+  
+- Point getA(Point, Point, Point, double, double, double)
+  - calculate r1 and r2
+  - calculate r using r1 and r2
+  
+- Int main()
+  - cin file into int variable
+  - Point A, B, C, P, Q, R
+  - double array for our six m values
+  - double a, b, c
+  - while loop
+  - read in values for P, Q, and R
+  - for loop: read in m values
+  - calculate a, b, and c using m values
+  - calculate A, B, and C using getA()
+  - print
