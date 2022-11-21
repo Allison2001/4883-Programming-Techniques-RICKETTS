@@ -20,7 +20,7 @@
   - while loop
   - P.read(), Q.read(), R.read()
   - scanf to read in m variables
-  - implements Menelaus Theory
+  - implements Menelaus Theorem
   - calculates points pa, pb, pc, using resize function and calculations from Menelaus
   - uses write() to print
 
@@ -37,6 +37,7 @@
 - Overriding Vector Operators: +, -, *, /
 
 - cal(double, double, double)
+  - Uses Menelaus Theorem
   - returns (k1+(k1*k2)+(k1*k2*k3))/(1-(k1*k2*k3))
     
 - Int main()
