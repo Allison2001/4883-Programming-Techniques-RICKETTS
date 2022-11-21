@@ -13,9 +13,9 @@
   - Override + operator
   - Override - operator
   
--Point resize()
+- Point resize()
 
--Int main()
+- Int main()
   - six double variables (m1, m2, m3, m4, m5, m6)
   - while loop
   - P.read(), Q.read(), R.read()
