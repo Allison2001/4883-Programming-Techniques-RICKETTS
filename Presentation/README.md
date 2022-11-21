@@ -38,7 +38,7 @@
 
 - cal(double, double, double)
   - Uses Menelaus Theorem
-  - returns (k1+(k1*k2)+(k1*k2*k3))/(1-(k1*k2*k3))
+  - returns (k1+(k1 x k2)+(k1 x k2 x k3))/(1-(k1 x k2 x k3))
     
 - Int main()
   - scanf in file
